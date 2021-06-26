@@ -1,0 +1,21 @@
+Jun 26, 2021 9:17:23 AM hudson.remoting.jnlp.Main createEngine
+INFO: Setting up agent: staging
+Jun 26, 2021 9:17:23 AM hudson.remoting.jnlp.Main$CuiListener <init>
+INFO: Jenkins agent is running in headless mode.
+Jun 26, 2021 9:17:23 AM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 4.7
+Jun 26, 2021 9:17:23 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/ubuntu/jenkins/remoting as a remoting work directory
+Jun 26, 2021 9:17:23 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://13.233.236.123:8080/]
+Jun 26, 2021 9:17:23 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Jun 26, 2021 9:17:28 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver isPortVisible
+WARNING: connect timed out
+Jun 26, 2021 9:17:28 AM hudson.remoting.jnlp.Main$CuiListener error
+SEVERE: http://13.233.236.123:8080/ provided port:38305 is not reachable
+java.io.IOException: http://13.233.236.123:8080/ provided port:38305 is not reachable
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:311)
+	at hudson.remoting.Engine.innerRun(Engine.java:689)
+	at hudson.remoting.Engine.run(Engine.java:514)
+
